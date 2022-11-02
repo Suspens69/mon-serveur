@@ -23,6 +23,7 @@
   "type": "module",
   "keywords": [],
   "dependencies": {
+    "dotenv": "^16.0.3",
     "mongoose": "^6.7.1"
   }
 }
