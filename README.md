@@ -2,7 +2,7 @@
 ## Utilisation Volta
 Pour faire le versionning de node et de npm.
 # Le guide
-<a href="https://docs.volta.sh/guide/getting-started">Volta
+[Volta](https://docs.volta.sh/guide/getting-started)
 
 # Commande pour installation
 ```
