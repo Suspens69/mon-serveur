@@ -45,6 +45,10 @@ SERVEUR_PORT est le nom de la variable
 ```
 systemctl enable --now "mon du service"
 ```
+# Commande linux utile
+```
+ shutdown -h now 
+```
 # Lien utile
 
 1. Creation d un service node
