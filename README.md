@@ -15,9 +15,16 @@ volta install npm@6
 ```
 
 ## Tips
+# import ... from
 
 Pour permettre de faire des imports on modifi le fichier package.json en ajoutant
 ```
   "type": "module",
 ```
+# service centos
+```
+systemctl enable --now "mon du service"
+```
+# Creation d un service node
 
+https://nodesource.com/blog/running-your-node-js-app-with-systemd-part-1/
