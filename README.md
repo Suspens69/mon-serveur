@@ -30,8 +30,16 @@ dotenv.config();
 ```
 et 
 ```
-${process.env.SERVEUR_PORT}`
+`${process.env.SERVEUR_PORT}`
 ```
+2. node:http
+Pour la creation du serveur
+exemple:
+```
+import { createServer } from "node:http";
+const serveur = createServer((req, res) => { ...
+```
+
 SERVEUR_PORT est le nom de la variable
 # Service centos
 ```
