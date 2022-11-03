@@ -21,6 +21,18 @@ Pour permettre de faire des imports on modifi le fichier package.json en ajoutan
 ```
   "type": "module",
 ```
+# package utile
+1. dotenv
+Permet d appeler un fichier .env avec les variables utile
+Pour les appeler ces variable on utilse:
+```
+dotenv.config();
+```
+et 
+```
+${process.env.SERVEUR_PORT}`
+```
+SERVEUR_PORT est le nom de la variable
 # Service centos
 ```
 systemctl enable --now "mon du service"
