@@ -25,9 +25,10 @@ Pour permettre de faire des imports on modifi le fichier package.json en ajoutan
 ```
 systemctl enable --now "mon du service"
 ```
-# Creation d un service node
+# lien utile
+
+1. Creation d un service node
 [Lien](https://nodesource.com/blog/running-your-node-js-app-with-systemd-part-1/)
 
-# Utilisation Markdowon
-
+2. Utilisation Markdowon
 [Markdown_syntax](https://www.markdownguide.org/basic-syntax/)
