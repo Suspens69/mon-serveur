@@ -32,6 +32,8 @@ et
 ```
 `${process.env.SERVEUR_PORT}`
 ```
+SERVEUR_PORT est le nom de la variable
+
 2. node:http
 Pour la creation du serveur
 exemple:
@@ -39,8 +41,6 @@ exemple:
 import { createServer } from "node:http";
 const serveur = createServer((req, res) => { ...
 ```
-
-SERVEUR_PORT est le nom de la variable
 
 3. Lecture d un dossier
 [JavaScript côté serveur : Lire et écrire des fichiers](https://www.youtube.com/watch?v=cT6b6_XzFmI&t=1134s)
@@ -50,8 +50,14 @@ SERVEUR_PORT est le nom de la variable
 systemctl enable --now "mon du service"
 ```
 # Commande linux utile
+
+Eteindre linux
 ```
  shutdown -h now 
+```
+# Commande utile 
+```
+cd /run/media/flemelle/Lamiscard //Acces au disque
 ```
 # Lien utile
 
@@ -60,3 +66,6 @@ systemctl enable --now "mon du service"
 
 2. Utilisation Markdowon
 [Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+
+3. Grafikart
+[Grafikart]https://www.youtube.com/c/grafikart
