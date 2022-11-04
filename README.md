@@ -41,8 +41,9 @@ const serveur = createServer((req, res) => { ...
 ```
 
 SERVEUR_PORT est le nom de la variable
+
 3. Lecture d un dossier
-[JavaScript côté serveur : Lire et écrire des fichiers](<iframe width="560" height="315" src="https://www.youtube.com/embed/cT6b6_XzFmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cT6b6_XzFmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 # Service centos
 ```
 systemctl enable --now "mon du service"
