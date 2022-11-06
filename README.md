@@ -53,8 +53,10 @@ systemctl enable --now "mon du service"
 
 Eteindre linux
 ```
-shutdown -h now                    //Eteindre pc
-cd /run/media/flemelle/Lamiscard   //Acces au disque
+shutdown -h now                     //Eteindre pc
+cd /run/media/flemelle/Lamiscard    //Acces au disque
+df -h                               //Utilisation des diques
+
 ```
 ## Lien utile
 
