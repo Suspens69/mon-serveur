@@ -74,3 +74,5 @@ Generation de la clef ssh
 ```
 sh-keygen -t ed25519 -C "your_email@example.com"
 ```
+le fichier ce trouve ds : - cd ~/.ssh
+
