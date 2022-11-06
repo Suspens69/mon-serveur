@@ -66,3 +66,9 @@ cd /run/media/flemelle/Lamiscard   //Acces au disque
 
 3. Grafikart
 [Grafikart]https://www.youtube.com/c/grafikart
+
+## Command pour creation / suivi 
+Generation de la clef ssh
+```
+sh-keygen -t ed25519 -C "your_email@example.com"
+```
