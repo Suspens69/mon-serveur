@@ -76,3 +76,9 @@ sh-keygen -t ed25519 -C "your_email@example.com"
 ```
 le fichier ce trouve ds : - cd ~/.ssh
 
+## Lancer service 
+```
+sudo systemctl start mongod
+```
+## ouvrir port:
+

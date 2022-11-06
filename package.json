@@ -1,7 +1,7 @@
 {
   "name": "mon-serveur",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pour faire le versionning de node et de npm. ## Le guide [Volta](https://docs.volta.sh/guide/getting-started)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
