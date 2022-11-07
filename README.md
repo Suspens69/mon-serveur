@@ -80,5 +80,13 @@ le fichier ce trouve ds : - cd ~/.ssh
 ```
 sudo systemctl start mongod
 ```
-## ouvrir port:
-
+## Création du ftp
+[Création ftp](https://fr.wikihow.com/configurer-un-serveur-FTP-sous-Ubuntu-Linux)
+1. Téléchargement
+```
+sudo apt-get install vsftpd
+```
+2. Configuration
+```
+sudo nano /etc/vsftpd.conf
+```
