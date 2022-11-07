@@ -88,5 +88,5 @@ sudo apt-get install vsftpd
 ```
 2. Configuration
 ```
-sudo nano /etc/vsftpd.conf
+sudo vim /etc/vsftpd.conf
 ```
