@@ -1,4 +1,8 @@
 # mon-serveur
+## Utilisation sous Windows
+1. [installation MongoDB](https://www.mongodb.com/try/download/community)
+2. [Installation Volta](https://github.com/volta-cli/volta/releases/download/v1.1.0/volta-1.1.0-windows-x86_64.msi)
+
 ## Utilisation Volta
 Pour faire le versionning de node et de npm.
 ## Le guide

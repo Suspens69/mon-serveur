@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 import * as dotenv from "dotenv"; // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
 
-mongoose.Promise = global.Promise;
-
 // Connect MongoDB at default port 27017.
+//mongoose.Promise = global.Promise;
+
 mongoose.connect(
   `mongodb://${process.env.MONGO_URL}:${process.env.MONGO_PORT}/test`,
   {

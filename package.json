@@ -24,6 +24,9 @@
   "keywords": [],
   "dependencies": {
     "dotenv": "^16.0.3",
-    "mongoose": "^6.7.1"
+    "mongodb": "^4.12.0",
+    "mongoose": "^6.7.1",
+    "node": "^17.9.1",
+    "nodemon": "^2.0.20"
   }
 }
