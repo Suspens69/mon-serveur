@@ -94,3 +94,8 @@ sudo apt-get install vsftpd
 ```
 sudo vim /etc/vsftpd.conf
 ```
+3. FileZyla
+```console
+sudo apt-get install filezilla
+
+```
