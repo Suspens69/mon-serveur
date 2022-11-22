@@ -99,3 +99,10 @@ sudo vim /etc/vsftpd.conf
 sudo apt-get install filezilla
 
 ```
+
+## Fixer l IP
+
+[lien anglais](https://www.cyberciti.biz/faq/add-configure-set-up-static-ip-address-on-debianlinux/)
+```
+sudo cp /etc/network/interfaces /root/
+```
