@@ -94,3 +94,92 @@ sudo apt-get install vsftpd
 ```
 sudo vim /etc/vsftpd.conf
 ```
+## Creation  ssh
+[Version Ubuntu](https://doc.ubuntu-fr.org/ssh#configuration_du_serveur_ssh)
+[Ou](https://www.linuxtricks.fr/wiki/ssh-installer-et-configurer-un-serveur-ssh)
+```
+vim /etc/ssh/sshd_config
+```
+## Fichier de coniguration VS-Code
+1. [grafikart](https://grafikart.fr/tutoriels/vscode-settings-2096)
+2. Fichier Setting 
+```
+{
+  "window.zoomLevel": 0, // Permet de zoomer, pratique si vous faites une présentation
+
+  // Apparence
+  // -- Editeur
+  "workbench.startupEditor": "none", // On ne veut pas une page d'accueil chargée
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  // -- Sidebar
+  "workbench.tree.indent": 15, // Indente plus pour plus de clarté dans la sidebar
+  "workbench.tree.renderIndentGuides": "always",
+  // -- Code
+  "editor.occurrencesHighlight": false, 
+  "editor.renderWhitespace": "trailing", // On ne veut pas laisser d'espace en fin de ligne
+
+  // Thème
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', 'Operator Mono Lig', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editor.selectionBackground": "#3D59A1",
+      "editor.selectionHighlightBackground": "#3D59A1"
+    },
+  },
+
+  // Ergonomie
+  "editor.wordWrap": "on",
+  "editor.suggest.insertMode": "replace", // L'autocomplétion remplace le mot en cours
+  "editor.acceptSuggestionOnCommitCharacter": false, // Evite que l'autocomplétion soit accepté lors d'un . par exemple
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.linkedEditing": true, // Quand on change un élément HTML, change la balise fermante
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.enablePreview": false, // Un clic sur un fichier l'ouvre
+  "emmet.triggerExpansionOnTab": true, 
+  // Fichiers
+  "files.autoSave": "onFocusChange",
+  "files.defaultLanguage": "markdown",
+  "files.exclude": {
+    "**/.idea": true
+  },
+  // Languages
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
+  // Formatters
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Extensions
+  "liveServer.settings.donotVerifyTags": true,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+}
+```
+
+3. JetBrains
+installer les fronts:
+[Telecharger les fronts](https://download.jetbrains.com/fonts/JetBrainsMono-2.242.zip)
+[site de telechargement](https://www.jetbrains.com/)
+
