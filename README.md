@@ -183,3 +183,15 @@ installer les fronts:
 [Telecharger les fronts](https://download.jetbrains.com/fonts/JetBrainsMono-2.242.zip)
 [site de telechargement](https://www.jetbrains.com/)
 
+3. FileZyla
+```console
+sudo apt-get install filezilla
+
+```
+
+## Fixer l IP
+
+[lien anglais](https://www.cyberciti.biz/faq/add-configure-set-up-static-ip-address-on-debianlinux/)
+```
+sudo cp /etc/network/interfaces /root/
+```
