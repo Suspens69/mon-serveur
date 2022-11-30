@@ -95,11 +95,17 @@ sudo apt-get install vsftpd
 sudo vim /etc/vsftpd.conf
 ```
 ## Creation  ssh
+1. Serveur
 [Version Ubuntu](https://doc.ubuntu-fr.org/ssh#configuration_du_serveur_ssh)
 [Ou](https://www.linuxtricks.fr/wiki/ssh-installer-et-configurer-un-serveur-ssh)
 ```
 vim /etc/ssh/sshd_config
 ```
+2. Creation Clef SSH
+```
+ssh-keygen
+```
+
 ## Fichier de coniguration VS-Code
 1. [grafikart](https://grafikart.fr/tutoriels/vscode-settings-2096)
 2. Fichier Setting 
